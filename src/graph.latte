@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    var a{$uuid} = echarts.init(document.getElementById({$id}), 'null');
+    a{$uuid}.setOption({$jsonData|noescape});
+
+    $(window).on('resize', function(){
+        if(a{$uuid} != null && a{$uuid} != undefined){
+            a{$uuid}.resize();
+        }
+    });
+</script>

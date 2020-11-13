@@ -1,0 +1,19 @@
+{
+	"name": "survik1/graph",
+	"description": "Echarts grafy",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Tomas Neumaier",
+			"email": "tomas.neumaier@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">= 7.1",
+		"latte/latte": "^2.4",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
